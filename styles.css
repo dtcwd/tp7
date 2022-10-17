@@ -1,8 +1,20 @@
+#nav {
+  width: 100%;
+  height: 2rem;
+  background-color: #ccc;
+}
+
+#nav a {
+  font-size; 80%;
+  text-decoration: none;
+  padding-right: 2rem;
+}
+
 #pagebanner {
   position: relative;
   width: 100%;
   height: 30vh;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxYC2ZagQ1zNJJT8azRQQGNa5IGaBk5ZR-ag&usqp=CAU);
+  background-image: none; /*url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxYC2ZagQ1zNJJT8azRQQGNa5IGaBk5ZR-ag&usqp=CAU);*/
   background-size: cover;
   background-position: center top;
   box-shadow: 5px 5px 5px #fae20f;  
@@ -31,6 +43,14 @@ div {
   padding-top:33px;
   font-size: 4em;
   text-shadow: 0px 5px 5px #fae20f;
+  
+}
+#pagebanner h4 {
+  font-family: "Oswald", sans-serif;
+  padding-top:77px;
+  font-size: 1em;
+  
+  
 }
 
 #pagebanner h1.tp {

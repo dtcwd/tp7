@@ -26,33 +26,7 @@ function loadFileInto(fromFile, whereTo) {
 
 window.onload = function() {
   
-  loadFileInto("ingredients.html", "#ingredients ul");
-  loadFileInto("equipment.html", "#equipment ul");
-  loadFileInto("directions.html", "#directions ol");
-  
-  document.querySelector("#pagebanner h1").classList.add("tp");
-  
-  document.querySelector("#pagebanner h1").onclick = function() {
-    
-    this.classList.toggle("color");
-  }
-  
-  document.querySelector("#columns #ingredients").onclick = function() {
-    
-    this.classList.toggle("show");
-  }
-  
-  document.querySelector("#columns #equipment").onclick = function() {
-    
-    this.classList.toggle("show");
-  }
-  
-  document.querySelector("#columns #directions").onclick = function() {
-    
-    this.classList.toggle("show");
-  }
-  
-  document.querySelector("#columns #equipment ul").innerHTML += "<li>Electric Mixer</li>";
+ 
   
   
   
