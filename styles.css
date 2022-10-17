@@ -43,14 +43,14 @@ div {
   padding-top:33px;
   font-size: 4em;
   text-shadow: 0px 5px 5px #fae20f;
-  
+ 
 }
 #pagebanner h4 {
   font-family: "Oswald", sans-serif;
   padding-top:77px;
   font-size: 1em;
-  
-  
+  display: block;
+  color: blue;
 }
 
 #pagebanner h1.tp {
@@ -82,18 +82,7 @@ ul, ol {
   font-style: italic;
 }
 
-#columns #ingredients ul, 
-#columns #equipment ul, 
-#columns #directions ol { 
-  display: none;
-} /* hides column content at first*/
 
-#columns #ingredients.show ul,
-#columns #equipment.show ul,
-#columns #directions.show ol
-{
-  display: block;
-}
 
 /* media breakpoints */
 @media (max-width: 576px) { 
